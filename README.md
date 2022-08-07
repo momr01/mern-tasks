@@ -78,14 +78,14 @@ _url.js (frontend)_
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DEPLOY -->
-## Deploy Netlify: []()
+## Deploy Netlify: [https://cozy-lokum-cfcbab.netlify.app/](https://cozy-lokum-cfcbab.netlify.app/)
 
 <!-- IMAGES -->
 ## Images of the project:
 
-![Gral]()
+![Gral](https://github.com/momr01/mern-tasks/blob/main/public/proyecto-propio/main.PNG)
 * * *
-![Checked]()
+![Checked](https://github.com/momr01/mern-tasks/blob/main/public/proyecto-propio/checked.PNG)
 
 <!-- CONTRIBUTING -->
 ## Contributing
