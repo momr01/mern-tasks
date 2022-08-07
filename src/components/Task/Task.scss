@@ -1,0 +1,74 @@
+.task {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+    position: relative;
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+
+    div {
+
+        svg {
+            width: 22px;
+            fill: #bdbdbd;
+        }
+
+        &:nth-child(1) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid #dadada;
+            height: 70px;
+            width: 70px;
+
+            @media screen and(max-width: 500px) {
+                width: 18%;
+                
+            }
+
+            &.completed {
+                background-color: #90D383;
+
+                svg {
+                    fill: #000;
+                }
+                
+            }
+
+            svg {
+                &:hover {
+                    cursor: pointer;
+                    fill: #45da00;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            padding-left: 30px;
+
+            @media screen and(max-width: 500px) {
+                word-break: break-all;
+                padding: 0 1rem;
+                width: 60%;
+                
+            }
+        }
+
+        &:nth-child(3) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 20px;
+
+            svg {
+                &:hover {
+                    cursor: pointer;
+                    fill: #e20000;
+                }
+            }
+        }
+    }
+}
